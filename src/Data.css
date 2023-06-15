@@ -1,0 +1,52 @@
+.inputvalue {
+    height: 100px;
+    width: 250px;
+    text-align: center;
+  }
+  
+  .light-theme {
+    .Data {
+      background-color: lightblue;
+    }
+    .text1 {
+      color: darkblue;
+    }
+    #reverse,
+    #lowercase,
+    #uppercase,
+    #capitalized,
+    #clear,
+    #prompt,
+    #theme {
+      background-color: darkblue;
+      color: whitesmoke;
+      font-weight: 700;
+    }
+  }
+  .dark-theme {
+    .Data {
+      background-color: black;
+    }
+    .text1 {
+      color: lightblue;
+    }
+    .inputvalue {
+      background-color: rgb(169, 172, 175);
+      color: black;
+  
+      font-weight: 700;
+    }
+    #reverse,
+    #lowercase,
+    #uppercase,
+    #capitalized,
+    #clear,
+    #prompt,
+    #theme {
+      background-color: lightskyblue;
+      color: black;
+  
+      font-weight: 700;
+    }
+  }
+  
